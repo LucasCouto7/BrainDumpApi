@@ -1,7 +1,7 @@
 ﻿
 namespace BrainDumpApi.Models.DTOs
 {
-    public class UserLoginRequest
+    public class UserLoginRequestDto
     {
         [Required]
         public string Email { get; set; } = string.Empty;
